@@ -1,0 +1,23 @@
+.sectionLogin{
+    margin:center;
+}
+.box6{
+    width: auto;
+    height: auto;
+    padding: 25px;
+    border: 5px solid #393E46;
+    margin-bottom: 2rem;
+    background-color: #cf7e83;
+}
+.h1TextStyle{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    background-color:#393E46 ;
+    color: #cf7e83;
+    font-size: 4rem;
+    font-style: italic;  
+  }
+
+.backGround{
+    background-color:#fdd8d8 ;
+}
+  
