@@ -1,0 +1,164 @@
+
+body
+{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    background-color:#fdd8d8;
+}
+
+
+.HeaderBackGround
+{
+    margin-block-start: 0px;
+    background-color: #393E46;
+    color: white;
+    
+}
+
+
+
+.navbar {
+    background-color: #393E46;
+  }
+  .navbar .navbar-brand {
+      font-size: 25px;
+    color:  white;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #cf7e83;
+  }
+  .navbar .navbar-text {
+    font-size: 15px;
+    color:  white;
+  }
+  .navbar .navbar-text a {
+    color: #cf7e83;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #cf7e83; 
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 15px;
+    color:  white;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #cf7e83;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #cf7e83;
+    font-size: 15px;
+    background-color:  white;
+  }
+  .navbar .navbar-toggler {
+    font-size: 15px;
+    border-color: white;
+  }
+  .navbar .navbar-toggler:hover,
+  .navbar .navbar-toggler:focus {
+    font-size: 15px;
+    background-color: white;
+  }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    font-size: 15px;
+    color:  white;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color:  white;
+  }
+  .navbar .navbar-link {
+    font-size: 15px;
+    color: white;
+  }
+  .navbar .navbar-link:hover {
+    color: #cf7e83;
+  }
+main{
+    display: flex;
+}
+
+aside{
+    flex:25%;
+    padding: 1rem;
+}
+
+section{
+    flex:75%;
+    padding: 1rem;
+}
+  
+.carousel-indicators li {
+    background-color: #cf7e83;
+  }
+  .carousel-indicators .active {
+    background-color: #cf7e83;
+  }
+  .carousel .carousel-indicators li:nth-of-type(3).active {
+    background-color:#cf7e83;
+  }
+  
+  .sehrimCarouselStyle{
+    height: 650px;
+  }
+
+
+  
+.boxİlgi{
+    width: auto;
+    height: auto;
+    padding: 25px;
+    border: 5px solid #393E46;
+    margin-bottom: 2rem;
+    background-color: #cf7e83;
+}
+.boxİlgi1{
+    width: auto;
+    height: auto;
+    padding: 25px;
+    border: 5px solid #393E46;
+    margin-bottom: 2rem;
+    background-color: #cf7e83;
+}
+
+.h2TextStyle{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    background-color:#393E46 ;
+    color: #cf7e83;
+    font-size: 1.25rem;
+  }
+  .butonStyle{
+    color: white;
+    background-color:#393E46 ;
+  }
+  .h5TextStyle{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color: #393E46;
+    background-color:#cf7e83;
+
+    font-size: 1.25rem;
+  }
+  .boxİlgi3{
+    width: auto;
+    height: auto;
+    border: 3px solid #393E46;
+    background-color: #cf7e83;
+}
+
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+    background-color: #393E46 ;
+    color: white;
+  }
