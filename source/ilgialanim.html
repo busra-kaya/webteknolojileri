@@ -40,6 +40,7 @@
         </div>
       </div>
     </nav>
+    </header>
     <div id="carouselExampleIndicators" class="carousel slide w-100  m-auto " data-bs-ride="carousel">
       <div class="carousel-indicators ">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -143,8 +144,8 @@
 
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 
   $(document).ready(function () {
@@ -157,7 +158,7 @@
 
       var film = $("#film").val()
       var result = ""
-      var url = "http://www.omdbapi.com/?apikey=" + apikey
+      var url = "https://www.omdbapi.com/?apikey=" + apikey
 
       $.ajax({
         method: 'GET',
